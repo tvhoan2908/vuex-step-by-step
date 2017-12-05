@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <app-registration @userRegistered = "userRegistered" :users = "unregisteredUsers"></app-registration>
-    <app-registrations @userUnregistered = "userUnregistered" :registrations = "registrations"></app-registrations>
+    <app-registration></app-registration>
+    <app-registrations></app-registrations>
   </div>
 </template>
 
