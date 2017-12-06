@@ -51,5 +51,12 @@ export const store = new Vuex.Store({
       })
       state.registrations.splice(state.registrations.indexOf(registration), 1)
     }
+  },
+  actions: {
+    register ({ commit }, userId) {
+      setTimeout(() => {
+        commit('register', userId)
+      }, 1000)
+    }
   }
 })
